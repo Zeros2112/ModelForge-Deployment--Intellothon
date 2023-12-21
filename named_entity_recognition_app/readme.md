@@ -27,7 +27,7 @@ The Named Entity Recognition (NER) with Hugging Face API project allows users to
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/ner-huggingface-api.git
+    git clone https://github.com/Zeros2112/ner-huggingface-api.git
     ```
 
 2. Change into the project directory:
