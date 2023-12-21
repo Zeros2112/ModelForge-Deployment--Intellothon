@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Summarization</title>
+  </head>
+  <body>
+    <h1>Text Summarization</h1>
+    <form action="/" method="post">
+      <label for="text">Text to Summarize:</label><br />
+      <textarea id="text" name="text" rows="6" cols="50"></textarea><br /><br />
+      <input type="submit" value="Summarize" />
+    </form>
+    <br />
+    <h2>Result:</h2>
+    <p>{{ result }}</p>
+  </body>
+</html>

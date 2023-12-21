@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Describe and Generate</title>
+  </head>
+  <body>
+    <h1>Describe and Generate</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+      <label for="image">Upload image:</label><br />
+      <input type="file" id="image" name="image" accept="image/*" /><br /><br />
+      <input type="submit" value="Caption and Generate" />
+    </form>
+    <br />
+    {% if caption %}
+    <h2>Caption:</h2>
+    <p>{{ caption }}</p>
+    {% endif %} {% if image %} {% if image_error %}
+    <h2>Error Generating Image:</h2>
+    <p>{{ image_error }}</p>
+    {% else %}
+    <h2>Generated Image:</h2>
+    <img src="data:image/png;base64,{{ image }}" alt="Generated Image" />
+    {% endif %} {% endif %}
+  </body>
+</html>
