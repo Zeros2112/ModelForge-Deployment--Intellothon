@@ -27,7 +27,7 @@ The Text Summarization with BART Model project enables users to input text, and 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/text-summarization-bart.git
+    git clone https://github.com/Zeros2112/text-summarization-bart.git
     ```
 
 2. Change into the project directory:
