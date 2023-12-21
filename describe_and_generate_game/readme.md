@@ -27,7 +27,7 @@ The "Describe-and-Generate" game allows users to describe an image in text, and 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/describe-and-generate-game.git
+    git clone https://github.com/Zeros2112/describe-and-generate-game.git
     ```
 
 2. Change into the project directory:
