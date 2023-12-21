@@ -27,7 +27,7 @@ The "Image Captioning with BLIP" project allows users to upload images and recei
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/image-captioning-blip.git
+    git clone https://github.com/Zeros2112/image-captioning-blip.git
     ```
 
 2. Change into the project directory:
