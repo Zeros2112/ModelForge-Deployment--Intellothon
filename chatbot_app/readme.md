@@ -15,7 +15,7 @@ This is a simple Flask web application that implements a chatbot using the Dialo
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/chatbot-dialoGPT.git
+    git clone https://github.com/Zeros2112/chatbot-dialoGPT.git
     ```
 
 2. Change into the project directory:
