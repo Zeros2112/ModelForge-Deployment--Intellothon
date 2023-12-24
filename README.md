@@ -1,5 +1,4 @@
 # ModelForge Deployment @Intellothon
-# Hugging Face Model Hub Applications
 
 This repository contains multiple applications leveraging the Hugging Face Model Hub for various natural language processing tasks. Each application comes with its own Flask web interface and, where applicable, Gradio for user interaction.
 
